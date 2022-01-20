@@ -1,0 +1,24 @@
+.navbar{
+  height: 7vh;
+}
+
+.container-form-blog{
+  height: 93vh;
+}
+
+.container-form{
+  width: 450px;
+}
+
+.btn-orange{
+  background-color: orangered;
+  color: white;
+}
+
+.text-orange{
+  color: orangered !important;
+}
+
+.img-thumbnail{
+  width: 8%;
+}
