@@ -7,7 +7,7 @@ const query = require('express/lib/middleware/query');
 
 const app = express();
 const upload = require('./middleware/uploadFile');
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 
 let isLogin = false;
 let news = [
